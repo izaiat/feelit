@@ -1,0 +1,31 @@
+version:  '3.3'
+
+services:
+  mysql:
+    image: mysql:8.0
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: feelit
+
+  nginx:
+    image: nginx:1.19.0-alpine
+    restart: on-failure
+    volumes:
+      - './../apps/:/apps'
+      - './docker/nginx/feelit.local.conf:/etc/nginx/conf.d/feelit.local.conf:ro'
+    ports:
+      - '80:80'
+    depends_on:
+      - php
+
+  php:
+    build:
+      context: docker
+      dockerfile: php/Dockerfile
+    volumes:
+      - './../apps/:/apps'
+    restart: on-failure
+    env_file:
+      - docker/.env
+    user: 738240311:738240311
