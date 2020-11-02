@@ -2,10 +2,12 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\RoleRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ApiResource()
  * @ORM\Entity(repositoryClass=RoleRepository::class)
  */
 class Role
@@ -72,4 +74,8 @@ class Role
         return $this;
     }
 
+    public function __toString()
+    {
+        return $this->label;
+    }
 }

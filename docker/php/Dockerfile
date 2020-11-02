@@ -13,8 +13,11 @@ RUN docker-php-ext-enable apcu
 
 WORKDIR /apps
 
-RUN apt-get install wget -y
-RUN wget https://get.symfony.com/cli/installer -O - | php
+RUN apt-get update && apt-get install -y gnupg2
 RUN rm -f /usr/local/bin/composer
 RUN curl -s https://getcomposer.org/installer | php
 RUN mv composer.phar /usr/local/bin/composer
+
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+RUN apt-get update && apt-get install -y yarn

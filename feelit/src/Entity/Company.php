@@ -2,10 +2,12 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\CompanyRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ApiResource()
  * @ORM\Entity(repositoryClass=CompanyRepository::class)
  */
 class Company
@@ -53,5 +55,8 @@ class Company
     {
         $this->employees = $employees;
         return $this;
+    }
+    public function __toString() {
+        return $this->name;
     }
 }

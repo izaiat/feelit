@@ -2,11 +2,12 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\EmployeeRepository;
-use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ApiResource()
  * @ORM\Entity(repositoryClass=EmployeeRepository::class)
  */
 class Employee
@@ -79,7 +80,7 @@ class Employee
         return $this;
     }
 
-    public function getCompany(): Company
+    public function getCompany(): ?Company
     {
         return $this->company;
     }
@@ -89,5 +90,10 @@ class Employee
         $this->company = $company;
 
         return $this;
+    }
+
+    public function __toString()
+    {
+        return $this->getFirstName().' '.$this->getLastName();
     }
 }
