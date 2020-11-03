@@ -23,7 +23,7 @@ security:
                     - App\Security\LoginFormAuthenticator
             logout:
                 path: app_logout
-                target: home
+                target: app_login
 
             # activate different ways to authenticate
             # https://symfony.com/doc/current/security.html#firewalls-authentication
@@ -37,5 +37,6 @@ security:
         - { path: '^/company', roles: ROLE_ADMIN }
         - { path: '^/employee', roles: ROLE_ADMIN }
         - { path: '^/role', roles: ROLE_ADMIN }
+        - { path: '^/home', roles: ROLE_ADMIN }
         # - { path: ^/admin, roles: ROLE_ADMIN }
         # - { path: ^/profile, roles: ROLE_USER }

@@ -12,15 +12,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1c485719-3a5f-42c5-a235-01ed77eeccbd" name="Default Changelist" comment="Add pgination for Company">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/employee/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/employee/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/role/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/role/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -143,7 +142,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604408842924</updated>
-      <workItem from="1604408843986" duration="6498000" />
+      <workItem from="1604408843986" duration="6557000" />
+      <workItem from="1604415566738" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="Add pgination for Company">
       <created>1604413394087</created>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604415092838</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add pgination for Company">
+      <created>1604415394554</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604415394554</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +189,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add pgination for Company, Employee, Role controllers" />
