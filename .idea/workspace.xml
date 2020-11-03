@@ -10,37 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3f67a6b-13f8-4884-a348-d3b27031ce44" name="Default Changelist" comment="Init project, create entities">
-      <change afterPath="$PROJECT_DIR$/feelit/assets/css/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feelit/assets/css/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feelit/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feelit/src/DataFixtures/BaseDataFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apps.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6fc2a115-4992-41f4-b44a-fc31bb6bd42f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6fc2a115-4992-41f4-b44a-fc31bb6bd42f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="c3f67a6b-13f8-4884-a348-d3b27031ce44" name="Default Changelist" comment="Create application CRUD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/.env" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/src/Entity/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/src/Entity/Company.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/src/Entity/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/src/Entity/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/src/Entity/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/src/Entity/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/feelit/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -176,7 +154,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604134081469</updated>
       <workItem from="1604134082519" duration="27188000" />
-      <workItem from="1604336933586" duration="12136000" />
+      <workItem from="1604336933586" duration="13853000" />
+      <workItem from="1604388490380" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="Init project, create entities">
       <created>1604257831803</created>
@@ -185,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604257831803</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create application CRUD">
+      <created>1604349590952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604349590952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init project, create entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init project, create entities" />
+    <MESSAGE value="Create application CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create application CRUD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="201" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604341103746">
@@ -232,10 +219,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2369" y="175" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604344792434" />
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604259448076">
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604350489012">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604259448076" />
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604350489012" />
     <state x="2765" y="429" width="367" height="255" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604255321687">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
