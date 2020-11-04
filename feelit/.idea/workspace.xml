@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c485719-3a5f-42c5-a235-01ed77eeccbd" name="Default Changelist" comment="Add pgination for Company">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604408842924</updated>
       <workItem from="1604408843986" duration="6557000" />
-      <workItem from="1604415566738" duration="60000" />
+      <workItem from="1604415566738" duration="83000" />
+      <workItem from="1604426167957" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="Add pgination for Company">
       <created>1604413394087</created>
@@ -173,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604415394554</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add pgination for Company">
+      <created>1604415639480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604415639480</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add pgination for Company">
+      <created>1604415643661</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604415643661</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
