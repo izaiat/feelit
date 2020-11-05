@@ -10,24 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3f67a6b-13f8-4884-a348-d3b27031ce44" name="Default Changelist" comment="Change database configs">
-      <change afterPath="$PROJECT_DIR$/feelit/src/DataFixtures/RoleFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apps.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="c3f67a6b-13f8-4884-a348-d3b27031ce44" name="Default Changelist" comment="Add send email notification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/.env" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/src/Controller/EmployeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/src/Controller/EmployeeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/src/Message/MailNotofication.php" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/src/Message/FeelitMailNotofication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/src/MessageHandler/MailNotificationHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/src/MessageHandler/MailNotificationHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/src/Service/EmployeeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/src/Service/EmployeeService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/templates/company/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/templates/company/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/templates/employee/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/templates/employee/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/templates/employee/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/templates/employee/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/templates/role/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/templates/role/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +169,7 @@
       <workItem from="1604388490380" duration="85000" />
       <workItem from="1604426202804" duration="10819000" />
       <workItem from="1604511275285" duration="2128000" />
-      <workItem from="1604599610728" duration="5987000" />
+      <workItem from="1604599610728" duration="6224000" />
     </task>
     <task id="LOCAL-00001" summary="Init project, create entities">
       <created>1604257831803</created>
@@ -207,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604523443105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add send email notification">
+      <created>1604605679552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604605679552</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add send email notification">
+      <created>1604605696112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604605696112</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +228,8 @@
     <MESSAGE value="Init project, create entities" />
     <MESSAGE value="Create application CRUD" />
     <MESSAGE value="Change database configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change database configs" />
+    <MESSAGE value="Add send email notification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add send email notification" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="201" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604523236627">
@@ -272,10 +272,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604602052062" />
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604350489012">
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604605704045">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604350489012" />
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604605704045" />
     <state x="2765" y="429" width="367" height="255" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604255321687">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -292,10 +292,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2571" y="266" width="618" height="548" key="find.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604342703787" />
-    <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604344202956">
+    <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604605732140">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604344202956" />
+    <state x="2543" y="239" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604605732140" />
     <state x="2605" y="454" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604427934668">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
