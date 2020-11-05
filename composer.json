@@ -1,6 +1,0 @@
-{
-    "require": {
-        "symfony/messenger": "^5.1",
-        "symfony/amqp-messenger": "^5.1"
-    }
-}

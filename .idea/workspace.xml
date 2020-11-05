@@ -10,13 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3f67a6b-13f8-4884-a348-d3b27031ce44" name="Default Changelist" comment="Create application CRUD">
-      <change beforePath="$PROJECT_DIR$/.idea/apps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apps.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="c3f67a6b-13f8-4884-a348-d3b27031ce44" name="Default Changelist" comment="Change database configs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/.env" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/config/packages/messenger.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/feelit/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feelit/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/feelit/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604349590952</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change database configs">
+      <created>1604523443105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604523443105</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init project, create entities" />
     <MESSAGE value="Create application CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create application CRUD" />
+    <MESSAGE value="Change database configs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change database configs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="201" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604523236627">
