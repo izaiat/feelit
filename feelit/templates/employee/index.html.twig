@@ -3,8 +3,9 @@
 {% block title %}Employee index{% endblock %}
 
 {% block body %}
-    <h1>Employee index</h1>
 
+    <h1>Employee index</h1>
+    <a class="float-right" href="{{ path('employee_new') }}">Create new</a>
     <table class="table">
         <thead>
             <tr>
@@ -33,5 +34,4 @@
         </tbody>
     </table>
     {% include 'pagination/paginator.html.twig' %}
-    <a href="{{ path('employee_new') }}">Create new</a>
 {% endblock %}

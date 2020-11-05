@@ -19,6 +19,18 @@
                 <th>LastName</th>
                 <td>{{ employee.lastName }}</td>
             </tr>
+            <tr>
+                <th>Roles</th>
+                <td>
+                    {%  for i, role in employee.roles %}
+                        {% if i == 0 %}
+                            {{ role }}
+                        {% else %}
+                           , {{ role }}
+                        {% endif %}
+                    {% endfor %}
+                </td>
+            </tr>
         </tbody>
     </table>
 

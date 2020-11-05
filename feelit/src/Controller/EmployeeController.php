@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Employee;
 use App\Form\EmployeeType;
 use App\Repository\EmployeeRepository;
+use App\Service\EmployeeService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -35,7 +36,7 @@ class EmployeeController extends AbstractController
     /**
      * @Route("/new", name="employee_new", methods={"GET","POST"})
      */
-    public function new(Request $request): Response
+    public function new(Request $request, EmployeeService $employeeService): Response
     {
         $employee = new Employee();
         $form = $this->createForm(EmployeeType::class, $employee);
@@ -45,6 +46,8 @@ class EmployeeController extends AbstractController
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($employee);
             $entityManager->flush();
+
+            $employeeService->createMailNotification($employee);
 
             return $this->redirectToRoute('employee_index');
         }

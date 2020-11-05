@@ -4,7 +4,7 @@
 
 {% block body %}
     <h1>Role index</h1>
-
+    <a class="float-right" href="{{ path('role_new') }}">Create new</a>
     <table class="table">
         <thead>
             <tr>
@@ -33,5 +33,4 @@
         </tbody>
     </table>
     {% include 'pagination/paginator.html.twig' %}
-    <a href="{{ path('role_new') }}">Create new</a>
 {% endblock %}

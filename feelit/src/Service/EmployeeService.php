@@ -4,8 +4,7 @@ namespace App\Service;
 
 use App\Entity\Employee;
 use App\Interfaces\FeelitUserInterface;
-use App\Message\MailNotofication;
-use App\Repository\UserRepository;
+use App\Message\FeelitMailNotification;
 use Symfony\Component\Messenger\MessageBusInterface;
 
 class EmployeeService
@@ -19,7 +18,7 @@ class EmployeeService
 
     public function createMailNotification(Employee $employee)
     {
-        $notification = new MailNotofication($employee->getId());
+        $notification = new FeelitMailNotification($employee->getId());
         $this->messageBus->dispatch($notification);
     }
 }

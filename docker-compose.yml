@@ -42,7 +42,7 @@ services:
   rabbitmq:
     container_name: rabbitmq
     restart: always
-    hostname: rabbitmq.feelit.local
+    hostname: feelit.rabbitmq.local
     build:
       context: ./docker/rabbitmq
     ports:

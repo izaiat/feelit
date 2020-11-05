@@ -4,7 +4,7 @@
 
 {% block body %}
     <h1>Company list</h1>
-
+    <a href="{{ path('company_new') }}">Create new</a>
     <table class="table">
         <thead>
             <tr>
@@ -31,5 +31,4 @@
         </tbody>
     </table>
     {% include 'pagination/paginator.html.twig' %}
-    <a href="{{ path('company_new') }}">Create new</a>
 {% endblock %}

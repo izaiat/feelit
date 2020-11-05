@@ -94,6 +94,15 @@
       <path value="$PROJECT_DIR$/feelit/vendor/symfony/polyfill-intl-icu" />
       <path value="$PROJECT_DIR$/feelit/vendor/symfony/cache" />
       <path value="$PROJECT_DIR$/feelit/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/feelit/vendor/symfony/redis-messenger" />
+      <path value="$PROJECT_DIR$/feelit/vendor/symfony/doctrine-messenger" />
+      <path value="$PROJECT_DIR$/feelit/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/feelit/vendor/symfony/amqp-messenger" />
+      <path value="$PROJECT_DIR$/feelit/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/feelit/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/feelit/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/feelit/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/feelit/vendor/symfony/sendgrid-mailer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

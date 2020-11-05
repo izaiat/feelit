@@ -2,7 +2,7 @@
 
 namespace App\Message;
 
-class MailNotification
+class FeelitMailNotification
 {
     private $email;
 
