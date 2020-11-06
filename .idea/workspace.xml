@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3f67a6b-13f8-4884-a348-d3b27031ce44" name="Default Changelist" comment="Add send email notification">
+    <list default="true" id="c3f67a6b-13f8-4884-a348-d3b27031ce44" name="Default Changelist" comment="Edit readme file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -170,6 +174,7 @@
       <workItem from="1604426202804" duration="10819000" />
       <workItem from="1604511275285" duration="2128000" />
       <workItem from="1604599610728" duration="6224000" />
+      <workItem from="1604647347932" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Init project, create entities">
       <created>1604257831803</created>
@@ -272,10 +277,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="446" key="SwitcherDM/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604602052062" />
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604605704045">
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604606289199">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604605704045" />
+    <state x="2475" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604606289199" />
     <state x="2765" y="429" width="367" height="255" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604255321687">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
